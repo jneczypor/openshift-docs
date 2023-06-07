@@ -181,7 +181,7 @@ Topics:
 ---
 Name: CLI tools
 Dir: cli_reference
-Distros: openshift-enterprise,openshift-origin,openshift-online, openshift-rosa, openshift-dedicated
+Distros: openshift-rosa
 Topics:
 - Name: CLI tools overview
   File: index
@@ -200,12 +200,12 @@ Topics:
     File: extending-cli-plugins
   - Name: Managing CLI plugins with Krew
     File: managing-cli-plugins-krew
-    Distros: openshift-enterprise,openshift-origin, openshift-dedicated, openshift-rosa
+    Distros: openshift-rosa
   - Name: OpenShift CLI developer command reference
     File: developer-cli-commands
   - Name: OpenShift CLI administrator command reference
     File: administrator-cli-commands
-    Distros: openshift-enterprise,openshift-origin, openshift-dedicated, openshift-rosa
+    Distros: openshift-rosa
 ---
 Name: Red Hat OpenShift Cluster Manager
 Dir: ocm
