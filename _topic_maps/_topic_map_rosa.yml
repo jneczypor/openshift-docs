@@ -181,7 +181,7 @@ Topics:
 ---
 Name: CLI tools
 Dir: cli_reference
-Distros: openshift-enterprise,openshift-origin,openshift-online, openshift-rosa
+Distros: openshift-enterprise,openshift-origin,openshift-online, openshift-rosa, openshift-dedicated
 Topics:
 - Name: CLI tools overview
   File: index
