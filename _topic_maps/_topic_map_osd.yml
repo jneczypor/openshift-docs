@@ -106,12 +106,12 @@ Topics:
     File: extending-cli-plugins
   - Name: Managing CLI plugins with Krew
     File: managing-cli-plugins-krew
-    Distros: openshift-enterprise,openshift-origin, openshift-dedicated
+    Distros: openshift-enterprise,openshift-origin, openshift-dedicated, openshift-rosa
   - Name: OpenShift CLI developer command reference
     File: developer-cli-commands
   - Name: OpenShift CLI administrator command reference
     File: administrator-cli-commands
-    Distros: openshift-enterprise,openshift-origin, openshift-dedicated
+    Distros: openshift-enterprise,openshift-origin, openshift-dedicated, openshift-rosa
 ---
 Name: Installing, accessing, and deleting OpenShift Dedicated clusters
 Dir: osd_install_access_delete_cluster
