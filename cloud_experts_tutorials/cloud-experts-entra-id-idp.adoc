@@ -50,7 +50,7 @@ Remember to save this callback URL; it will be required later in the process.
 [source,terminal]
 ----
 $ domain=$(rosa describe cluster -c <cluster_name> | grep "DNS" | grep -oE '\S+.openshiftapps.com')
-$ echo "OAuth callback URL: https://oauth-openshift.apps.$domain/oauth2callback/AAD"
+echo "OAuth callback URL: https://oauth.${domain}/oauth2callback/AAD"
 ----
 +
 The "AAD" directory at the end of the OAuth callback URL must match the OAuth identity provider name that you will set up later in this process.
